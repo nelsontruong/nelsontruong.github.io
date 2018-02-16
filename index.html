@@ -85,7 +85,7 @@
 										<h2>Nelson's Work Portfolio</h2>
 									</header>
 									<p>I studied <b>Industrial (Systems Design) Engineering</b> at the University of Toronto.
-										After internships at the Ontario government and at a bank in the Netherlands, I was frustrated with archaic digital interfaces, 
+										After internships at the Ontario government and at a bank in the Netherlands, I was frustrated with archaic digital interfaces. 
 										I shifted my focus towards <b>specializing in Human Computer Interaction</b> as part of the Engineering discipline. 
 										Currently I am working for a digital agency at SapientRazorfish.
 										<br> </br>
@@ -109,8 +109,12 @@
 												I have designed experiences varying from a custom graphics tool, registration signups to a gaming
 												application to help people recover from cognitive injuries. 
 
-												This involves research, solutioning, rapid prototyping (usually low fidelity), usability testing,
-												documentation and synching with development teams.
+												This involves research, solutioning, rapid wireframing (usually low fidelity) and prototyping, usability testing,
+												documentation and syncing with development teams.
+
+												<br><br>
+												<b>Tools:</b> Sketch, Axure, Invision and Invision Design System Manager, Omnigraffle (a little), Balsamiq,
+												Flinto Prototyping Software, Principle Prototyping Software, Adobe Experience Manager (AEM), HTML and CSS
 											</p>
 										<li class="fa-book"><b>Collaborate with every discipline</b></li>
 											<p>
@@ -136,43 +140,46 @@
 													<br>
 													<ul>
 															<li>
-																<a href="jeep.com">Jeep (U.S.A)</a><br>
+																<a href="https://jeep.com" target="_blank">Jeep (U.S.A)</a><br>
 															</li>
 															<li>
-																<a href="dodge.com">Dodge (U.S.A)</a><br>
+																<a href="https://dodge.com" target="_blank">Dodge (U.S.A)</a><br>
 															</li>
 															<li>
-																<a href="chrysler.com">Chrysler (U.S.A)</a><br>
+																<a href="https://chrysler.com" target="_blank">Chrysler (U.S.A)</a><br>
 															</li>
 															<li>
-																<a href="ramtrucks.com">RAM (U.S.A)</a><br>
+																<a href="https://ramtrucks.com" target="_blank">RAM (U.S.A)</a><br>
 															</li>
 															<li>
-																<a href="fiatusa.com">Fiat (U.S.A)</a><br>
+																<a href="https://fiatusa.com" target="_blank">Fiat (U.S.A)</a><br>
 															</li>
 														</ul>
 													<h5>Context and Problem</h5>
 														<ul>
-															Fiat Chrysler Automotives
+															<u>Fiat Chrysler Automotives</u>
 															<ul>
-																<li>Consists of 5 international brands operating independently
-																	resulting in a design inconsistenices, unalignment, and slow turnaround time
-																	to update basic vehicle pages. 
+																<li>5 main international brands operating independently. This
+																	resulted in a design inconsistenices, unalignment, and slow turnaround time
+																	to update basic vehicle pages along with the inability to scale to more quickly re-design
+																	complex tools (such as Finding a Dealer on a map, or Scheduling a Test Drive).
 																</li>
 															</ul>
 														</ul>
 													<h5>My Role</h5>
 														<ul>
 															
-															<u>Architecting components for brand teams designed for 4 breakpoints - Desktop, Tablet, Phablet, Mobile</u>
+															<u>Architecting components for brand teams designed responsively across 4 breakpoints - Desktop, Tablet, Phablet, Mobile</u>
 															
 															<ul>
 																<li>
 																	This involved gathering of user requirements, determining brand and user value, performing
 																	 a competitive experience analysis and determining if the component aligns with the 
 																	 philosophy of the design system (such re-using previous subcomponents, re-using defined colors,
-																	 fonts, and if it should be made as a variation of an exisitng component or a new component).
-																	<br>
+																	 fonts, and if it should be made as an existing variation or a new component altogether).
+																</li>
+																<br>
+																<li>
 																	The design of a component enables speed and velocity when authoring content. An authored image 
 																	only needs to be defined once and it will automatically adjust accordingly maintaining its aspect
 																	ratio on smaller breakpoints. The same goes for font sizes and subcomponents like an arrow.
@@ -186,11 +193,14 @@
 																<li>
 																	Whiteboarding sessions were held for components in conjunction with visual designers
 																	and developers. Whiteboarding replaced the need to make wires for many components. Any issues
-																	with UX, Development, or Visual Design are discussed.
+																	with UX, Development, or Visual Design are discussed at this stage.
 																	<br><br>
+																</li>
+																<li>
 																	Because of a componentized framework within a design system, we must always design for the worst case
 																	scenario from the content authors perspective (shoving as much content into the component) and consider
-																	the systems requirements hosted from FCA server-side.
+																	the systems requirements hosted from FCA server-side (render times, load speeds, number of image combinations
+																	for a color, wheel and vehicle model variation).
 																</li>
 															</ul>
 															
@@ -199,9 +209,11 @@
 																<ul>
 																	<a class="image"><img src="images/Gallery.png" alt="Gallery Image" /></a>
 																	<li>
-																		On the FCA Product Team, UX and Visual Designers work in tandem to go straight from the whiteboarding phase
-																		directly to visual design. Wires are made for complex components, and interactions not defined
-																		in the design system framework.
+																		On the FCA Product Team, I work in tandem with the Visual Designer side-by-side and
+																		go straight from the whiteboarding phase directly to visual design. 
+																		Wires are made for complex components, and interactions not defined in the design system framework.
+																		Even when wires are made, they are usually high level because the most of it has already been defined
+																		at the component framework level.
 																	</li>
 																</ul>
 																
@@ -211,8 +223,10 @@
 																	<li>
 																		We start off by documenting the general structure of a component where 
 																		documentation is done by linking subcomponents with a complex component design. 
-																		Attributes in components are inherited or specified by the CMS author. 
-																		<br><br>
+																		Attributes in components can inherit or be specified by the CMS author. 
+																	</li>
+																	<br>
+																	<li>
 																		The example below is a component map made for a Feature Panel. A feature panel
 																		inherits traits from subcomponents such as a display media and is composed of other
 																		subcomponents such as the description block. The description block has its own
@@ -236,7 +250,9 @@
 																<u>Brands teams not understanding a design system</u>
 																<ul>
 																	<li>
-																		One change permeates throughout the rest of the experience for other brands. For example,
+																		Brands did not realize components are all interconnected. 
+																		One change permeates throughout the rest of the experience for other brands. A change to a
+																		subcomponent can also break other components that are dependent on the subcomponent. For example,
 																		if a team wanted to change the core functionality of a component, they didn't realize it
 																		would effect other brands using the same component. I mitigated this by continuously
 																		communicating with the brand teams and put myself forward as the go-to person for design
@@ -262,9 +278,11 @@
 																<ul>
 																	<li>
 																		Working with developers in India present unique challenges to time zones and cultural differences. 
-																		When we received the platform back, there were big gaps in the expectation of quality. Part of the reason
-																		is that the design team operated under the assumption that the development team would implement assumed features
-																		(such as if a tab is in its selected state, selecting another tab would move the selected state to it).
+																		When we received the platform back, there were large gaps in the expectation of quality. The design team operated 
+																		under the assumption that the development team would implement assumed features.
+																		For example, if a tab is in its selected state, selecting another tab should move the selected state to it.
+																		Another example, the hand icon should appear when hovering over an interactive element on Desktop.
+																		But this did not happen when we received the component back.
 																		I've since learned to be as prescriptive as possible and operate under no assumptions for developers. This has
 																		yielded the highest quality of work.
 																	</li>
@@ -279,16 +297,20 @@
 															</ul>
 															<h5>Results</h5>
 															<ul>
-																A consistent experience across 7 brands done within a year. My manager put it best. Since we were going
-																so fast, it was like flying an airplane but building it at the same time. Click through rates jumped drastically but most 
-																importantly - speed, this saved huge amounts of effort in terms of development, content creation, and design. Strategically,
-																it allowed FCA to focus more efforts on vehicle tools to offer user value, campaigns, launches, etc.
-																<br><br>
-																Here are the same 3 components
-																used in 4 different locations on Jeep, Fiat, Chrysler, and RamTrucks. The main navigation, hero,
-																and vehicle lineup components. It takes a content author seconds to author each component or to copy and put it on another page.
+																<li>
+																	A consistent experience across 5 brands completed within a year. My manager put it best. Since we were going
+																	so fast, it was like flying an airplane but building it at the same time. Click through rates jumped drastically but most 
+																	importantly - speed of execution multiplied. This saved huge amounts of effort in terms of development, content creation, and design. 
+																	Strategically, it allowed FCA to focus more efforts on vehicle tools to offer user value, campaigns, launches, etc.
+																</li>
+																<br>
+																<li>
+																	Here are the same 3 components, on Desktop, Tablet, and Mobile,
+																	used in 4 different locations on the home page for Jeep, Fiat, Chrysler, and RamTrucks.  It takes a content author 
+																	seconds to author each component or to copy and put it on another page.
+																</li>
 															</ul>
-															<u>Jeep - Desktop Vehicle Model Viewer Component</u>
+															<u>Jeep - Desktop Home Page</u>
 															<a class="image"><img src="images/Jeep Home Page.png" alt="Jeep Home Page Example Image" /></a>
 															<br><br>
 															<u>Chrysler - Desktop Home Page</u>
@@ -307,63 +329,62 @@
 										</article>
 									<section id = "International">
 										<article>
-												<h4>Designing 300 sites in 2 months with FCA International</h4>
+											<h4>Designing 300 sites in 2 months with FCA International</h4>
 											<a class="image"><img src="images/Jeep_Japan.png" alt="Jeep Japan" /></a>
 											<div class="inner">
 												<br>
 												<ul>
 														<li>
-															<a href="jeep-japan.com">Jeep Japan</a><br>
+															<a href="https://jeep-japan.com" target="_blank">Jeep Japan</a><br>
 														</li>
 														<li>
-															<a href="jeep.co.kr">Jeep Korea</a><br>
+															<a href="https://jeep.co.kr" target="_blank">Jeep Korea</a><br>
 														</li>
 														<li>
-															<a href="chrysler.com.au">Chrysler Australia</a><br>
+															<a href="https://chrysler.com.au" target="_blank">Chrysler Australia</a><br>
 														</li>
 														<li>
-															<a href="jeep.com.au">Jeep Australia</a><br>
+															<a href="https://jeep.com.au" target="_blank">Jeep Australia</a><br>
 														</li>
 														<li>
-															<a href="fiat.com.au">Fiat Australia</a><br>
+															<a href="https://fiat.com.au" target="_blank">Fiat Australia</a><br>
 														</li>
 														<li>
-															<a href="jeep.com.ar">Jeep Argentina</a><br>
+															<a href="https://jeep.com.ar" target="_blank">Jeep Argentina</a><br>
 														</li>
 														<li>
-															<a href="ram.com.ar">RAM Argentina</a><br>
+															<a href="https://ram.com.ar" target="_blank">RAM Argentina</a><br>
 														</li>
 														<li>
-															<a href="https://www.jeep-caribbean.com/">Jeep Caribbean</a><br>
+															<a href="https://www.jeep-caribbean.com/" target="_blank">Jeep Caribbean</a><br>
 														</li>
 														<li>
 															<a href="jeep-india.com">Jeep India</a><br>
 														</li>
 													</ul>
-													<br>
 												<h5>Context and Problem</h5>
-												<ul>
-													FCA International - Japan, Korea, India, Caribbean, Argentina
-													<li>
-														Inefficiencies and inability to scale their digital platform similar to the U.S.
-														market site. The goal was to bring the platform on board and fully operating international
-														sites within a 5 month period (2 months design, 3 months development and content authoring)
-													</li>
-												</ul>
+												<u>FCA International - Japan, Korea, India, Caribbean, Argentina</u>
+													<ul>
+														<li>
+															Inefficiencies and inability to scale their digital platform similar to the U.S.
+															market site. The goal was to bring the platform on board and fully operating international
+															sites within a 5 month period (2 months design, 3 months development and content authoring)
+														</li>
+													</ul>
 												<h5>My Role</h5>
 												<ul>
-													<u>
-														Lead UX and architect international sites and design (or modify) components for each 
-														FCA International Market
-													</u>
+													<u>Lead UX and architect international sites and design (or modify) components for each 
+														FCA International Market</u>
+													<ul>
 														<li>
 															Design pages for the international site using existing components if possible. I would design 
 															new components if necessary. The wire shown below is made in Sketch and an example that I collaborated with another UX
 															designer Jenna as we jammed through all the rest of the international market pages.
 														</li>
 														<a class="image"><img src="images/Jeep Japan Wire Example.png" alt="Jeep Japan Wire" /></a>
+														<br><br>
 														<li>
-															How did we structure the pages and why did we do them a certain way?
+															<b>How did we structure the pages and why did we do them a certain way?</b>
 															We examined existing web pages and mapped those web pages on how they would be created 
 															using our current component framework. We then modified the page with different components
 															(or enhancements to compoenents) and created templates in Excel to keep track of all variations.
@@ -382,23 +403,27 @@
 														</li>
 													</ul>
 												<ul>
-													<u>Take charge of multiple roles and also fill the role of a Business Analyst</u>
+													<u>Take charge of multiple roles - Fill the role of a Business Analyst as well as being the principal UX Designer</u>
+													<ul>	
 														<li>
 															At the start of the project, there was a gap where the BA position was not filled by anyone. 
 															As a result, I would also architect the back-end requirements and also gather the functional /
-															user requirements in addition to my role as the lead UX designer on this project.
+															user requirements in addition to my role as the principal UX designer on this project
 														</li>
+													</ul>
 												</ul>
 												<ul>
 													<u>Establish a working design relationship with clients</u>
-													<li>
-														Since the international clients were overseas in various countries, it was difficult to do 
-														scrum or agile sessions. The approach for this project was more in line with a waterfall method and
-														we had regular reviews with the client where I would showcase component and page designs via conferencing.
-														The pain point was that before presenting, there were many cases where I wasn't able to see the final page
-														provided by the content author as the team was truly global. Many of the international clients were located
-														in Asia-Pacific, Content Authors and Developers in India, and I'm situated in Toronto.
-													</li>
+													<ul>
+														<li>
+															The approach for this project was more in line with a waterfall method and
+															we had regular reviews with the client where I would showcase component and page designs via conferencing.
+															As a pain point, I would not have the chance to review final authored page designs
+															provided by the content author before presenting to the client. The goal of our design was really to simplify
+															the content displayed on each market's site and bring forward consistency for future scalability. This helped
+															me introduce systems design thinking to our clients.
+														</li>
+													</ul>
 												</ul>
 												<h5>Challenges</h5>
 												<ul>
@@ -425,18 +450,25 @@
 															progress ourselves. With 300+ sites, this became very difficult at first to match the sites to 
 															corresponding templates. Even more difficult when the client came back and wanted to change templates
 															affecting multiple sites. As a result, we simplified by working in batches and only changing templates
-															when absolutely necessary.
+															when absolutely necessary. Tools such as Trello were used to allow for greater team visibilty.
 														</li>
 													</ul>
 												</ul>												
 												<h5>Results</h5>
 												<ul>
-													I also had fantastic team members for visual design and UX to help complete this project together - Yuko, Jenna, Karen, Joyce. <br>
-													And the site went from this:
-													<a class="image"><img src="images/Old Jeep Wrangler.png" alt="Old Jeep Wrangler Japan Site" /></a>
-													<br><br>
-													To this state (Once the components were modified, it took the content author 5 minutes to get this up):
-													<a class="image"><img src="images/New Jeep Wrangler.png" alt="New Jeep Wrangler Japan Site" /></a>
+													<li>
+														I had fantastic team members for visual design and UX to help complete this project together - Yuko, Jenna, Karen, Joyce. <br>
+													</li>
+													<br>
+													<li>
+														And the site went from this:
+														<a class="image"><img src="images/Old Jeep Wrangler.png" alt="Old Jeep Wrangler Japan Site" /></a>
+													</li>
+													<br>
+													<li>
+														To this state (Once the components were modified, it took the content author 5 minutes to get this up):
+														<a class="image"><img src="images/New Jeep Wrangler.png" alt="New Jeep Wrangler Japan Site" /></a>
+													</li>
 												</ul>
 											</div>
 										</article>
@@ -453,40 +485,58 @@
 													<ul>
 														<li>
 															RAM Commercial wanted a software to be used at dealerships to show small to medium sized
-															business owners what they're logo would look like on a RAM. It's like a Microsoft Paint
+															business owners what their logo would look like on a RAM. It's like a Microsoft Paint
 															Tool that you can use on ramtrucks.com. The purpose of this tool wasn't to let users design
-															in detail of what they're truck would appear like, but rather as an exploration tool to get
-															them excited and imagine their business logo and design on a RAMTruck.
+															in detail, but rather as an exploration tool to get
+															them excited and imaginative as a selling feature at dealerships.
 														</li>
 													</ul>
 												<h5>My Role</h5>	
 													<ul>
 														<u>UX lead for this project.</u> 
+														<ul>
 															<li>
 																This involved gathering the requirements, leading the interaction
 																design and execution for this project.
 															</li>
+															<br>
+															<li>
+																<b>How did I gather requirements or do analysis?</b> A competitve landscape analysis was 
+																quite difficult to do as there were no competitors in the automotive industry that offered
+																this tool. Therefore, I had to take inspiration from similar tools such as T-Shirt or Logo 
+																Design online web applications. At the end of my analysis, my research indicated the tool had
+																to be extremely simple - not be like a photoshop, work seamlessly across all 4 breakpoints 
+																and always surface functionalities to be visible to the user. Nothing could be beneath the fold.
+															</li>
+															<br>
+															<li>
+																<b>Why did I come to these requirements?</b> They were also in line with the philosphy of the project.
+																Having a tool simple to use and all interactive elements are inline with RAM truck owners who are 
+																NOT technically savvy at all. Any state changes need to be clearly communicated. CTAs would need to be
+																very noticeable and large. These end goals are needed for our end target user. 
+															</li>
+														</ul>
 													</ul>
 												<h5>Challenges</h5>
 													<ul>
 														<u>No user testing or user research</u>
 															<ul>
 																<li>The client was not willing to pay for it, so this tool was
-																designed on open-ended requirements and key assumptions provided by the RAM client.
+																designed on open-ended requirements and key assumptions provided by the RAM client and 
+																the limited user research allocated time before project kickoff.
 																</li>
 															</ul>
 													</ul>
 													<ul>
-														<u>Responsiveness on 4 breakpoints like before</u>
+														<u>Adaptive approach rather than responsive</u>
 														<ul>
 															<li>
 																Not all functionalities worked well on Mobile, especially when configuring with tools that were
 																detailed oriented (such as adding custom text). Additionally, adding in many visual layers (text, images, etc.)
-																do not meet the system requirements as it would be very slow on mobile phones. As a solution, a adaptive approach
+																do not meet the system requirements as it would be very slow on mobile phones. As a solution, an adaptive approach
 																for some functionalities (such as adding custom text) were removed from phablet and mobile. This provided
 																a better streamlined experience on mobile but still allowed the user to use and play with features that were most 
-																important to them. Additionally with the small canvas area, adding in custom text and changing the fonts would not 
-																be very noticeable and may take away from the overall purpose of this tool.
+																important to them.
 																<br>
 																<a><img src="images/Logoizer Mobile.png" alt="RAM Commercial Custom Graphics Tool Mobile"/></a>
 															</li>
@@ -495,18 +545,16 @@
 												<h5>Results</h5>
 													<ul>
 														<li>
-															The client and dealerships were excited about the simplicity, but functionality of this tool.
-															The ability to put any image on a truck, change its shape, add custom decals and colors on 
-															desktop, tablet and mobile were very positive feedback given to us.
+															The client and dealerships were excited about the simplicity combined with the functionality of this tool.
+															CTAs, labels, and interactive elements were clear in what they did. Lastly, a responsive web graphics
+															design editor is rarely seen online and the client had high regards on us pushing FCA to be the digital frontier 
+															for automotive experiences.
 														</li>
 													</ul>
 											</div>
 										</article>
 										<article>
 												<h5>Cadillac Fairview Santa Signup</h5>
-												<br>
-												What was Designed:
-												<a class="image"><img src="images/Designed_Santa_Signup.png" alt="Designed Santa Signup Calendar" /></a>
 												<br>
 													<h5>Context and What I Did</h5>
 													<ul>
@@ -528,6 +576,10 @@
 																of site hierarchy). Move the calendar up so it is in the view of the user's viewport on initial page load and it implies for for the user.
 															</li>
 														</ul>
+														What was Designed:
+														<a class="image"><img src="images/Designed_Santa_Signup.png" alt="Designed Santa Signup Calendar" /></a>
+														<br>
+
 														<li>
 															In the end, the client was very persistent about keeping the "Visit with Santa" module at
 															the top with key dates clearly outlined. This was similar to last year's approach that they were comfortable with. 
@@ -536,13 +588,13 @@
 														<li>
 															The design of the calendar featured blue labels and colouring for any interactive elements, such as changing
 															the month or selecting tabs. Dates were in an inactive state. On hover of the date items changed to a light blue color
-															with the active state using a darker blue. A special accessibility tool (Chrome addon) was used to examine contrast and we
-															were AA compliant. On the right side of the calendar are time slots with corresponding icons to choose throughout the day. 
+															with the active state using a darker blue. An accessibility tool (Chrome addon) was used to examine contrast for
+															AA compliancy. On the right side of the calendar are time slots with corresponding icons to choose throughout the day. 
 															If there were no times in the "morning", "afternoon", or "evening" tab, those tabs would be disabled. If all morning
 															slots were filled or none available, then it would default the user to the next available tab and the morning tab would be 
 															disabled.
 														</li>
-														<br><br>
+														<br>
 														<li>
 															<b>Why did we divide it up the time intervals?</b> There were many days where there would be 15 mins pers signup slot for 10+ hours.
 															This meant the user would have to scroll a lot in order to reach times at night. To mitigate this, tabs corresponding to morning, afternoon
@@ -561,11 +613,10 @@
 														<br>
 														<ul>
 															<li>
-																The top section ended up containing a lot of content pushing the calendar far down the page. Although design
-																did give content direction, the client ultimately decided the copy. As a designer, this is partially my 
-																responsibility in convincing the client. Additionally, the design requirement of disabling tabs in the day
-																that did not have any openings were never disabled. In the visual above, December 10th only has openings in the 
-																evening, but the morning, and afternoon tabs were never disabled and the evening tab is not defaulted to the 
+																The top section ended up containing a lot of content and pushed the calendar far down the page. As a designer, this is partially my 
+																responsibility for not being able to convince the client to put less content. Additionally, the design requirement of disabling tabs in days
+																that did not have any openings should have been disabled. In the visual above, December 10th only has openings in the 
+																evening, but the morning, and afternoon tabs were never disabled with the evening tab is not defaulted to the 
 																selected state.
 															</li>
 														</ul>
